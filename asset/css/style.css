@@ -177,13 +177,21 @@ a {
 }
 
 #footer .footer-wrap .foot-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 30px;
   line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #footer .footer-wrap .foot-bottom nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -196,8 +204,10 @@ a {
   padding-left: 0;
 }
 
-#footer .footer-wrap .foot-bottom .search {
-  padding-left: 25px;
+#footer .footer-wrap .container2 {
+  font-size: 12px;
+  text-align: center;
+  color: #888;
 }
 
 .mainbanner {

@@ -21,11 +21,19 @@
       }
     }
     .foot-bottom{
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       height: 30px;
       line-height: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       nav ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         li{
           font-size: 14px;
@@ -35,9 +43,11 @@
           }
         }
       }
-      .search{
-        padding-left: 25px;
-      }
+    }
+    .container2{
+      font-size: 12px;
+      text-align: center;
+      color: #888;
     }
   }
 }
