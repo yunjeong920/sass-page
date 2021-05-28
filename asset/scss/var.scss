@@ -1,35 +1,17 @@
 //변수처리
 
 //size width
-$siteWidth: 1320px;
+$siteWidth: 100%;
 
 //text size
-$fontSizeSmall: 12px;
-$fontSizeNormal: 16px;
-$fontSizeMid: 18px;
-$fontSizeSBig: 21px;
-
-//title text size
-$titleFontSizeSmall: 21px;
-$titleFontSizeNormal: 24px;
-$titleFontSizeMid: 26px;
-$titleFontSizeBig: 32px;
+$fontSize: 16px;
+$fontSizeNormal: 18px;
+$fontSizeMid: 30px;
+$fontSizeSBig: 56px;
 
 //background color
-$layoutBg: #fff3c4;
+$layoutBg: #fff;
 
 //font color
 $fontColorBasic: #666666;
-$fontColorPrimary: #b8944d;
-$fontColorHover: #e3a936;
-
-//border color
-$borderColorPrimary: #b8944d;
-$borderColor: #997939;
-
-//button color
-$gbtnColor: #b8944d;
-$gbtnColorHover: #e3a936;
-
-//table bg
-$tableBg: #b8944d;
+$fontColorHover: #4a4a4a;
