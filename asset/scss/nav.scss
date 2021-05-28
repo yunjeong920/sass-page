@@ -1,0 +1,91 @@
+//layout 공통
+#wrap{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  #header{
+    position: relative;
+    height: 90px;
+    z-index: 100;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.5);
+    #top_logo{
+      margin-left: 100px;
+      float: left;
+      a{
+        height: 90px;
+        line-height: 90px;
+      }
+    }
+    //top_menu 구현
+    #top_nav{
+      position: relative;
+      height: 90px;
+      float: right;
+      ul{
+        margin-right: 100px;
+        float: left;
+        li{
+          position: relative;
+          float: left;
+          margin-left: 60px;
+          &:first-child{
+            margin-left: 0;
+          }
+          a{
+            line-height: 90px;
+            height: 90px;
+            font-weight: 600;
+            color: $fontMain;
+            font-size: $navMainsize;
+            &:hover{
+              color: #6081C8;
+            }
+          }
+          &:hover{
+            .submenu{
+              visibility: visible;
+              opacity: 1;
+              top: 100%;
+            }
+          }
+          //submenu 구현
+          .submenu{
+            position: absolute;
+            border: 1px solid #f1f1f1;
+            visibility: hidden;
+            top: calc( 100% - 3px );
+            left: 0;
+            opacity: 0;
+            transition: .5s;
+            li{
+              width: 100%;
+              margin: 0;
+              background: white;
+              box-sizing: border-box;
+              padding: 0 10px;
+              min-width: 180px;
+              transition: .5s;
+              a{
+                line-height: 40px;
+                height: 40px;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+                font-weight: 300;
+                color: $fontColorBasic;
+              }
+              &:hover{
+                background: -webkit-linear-gradient(128deg, rgb(115, 228, 255), rgb(220, 128, 249));
+                background: linear-gradient(128deg, rgb(115, 228, 255), rgb(220, 128, 249));
+                a{
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

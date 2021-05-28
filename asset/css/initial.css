@@ -1,6 +1,25 @@
 /*initial css*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'GmarketSansMedium', 'Montserrat', sans-serif;
+  color: #666666;
 }
 
 html, body, ul, li, h1, h2, h3, h4, h5, h6 {
@@ -8,6 +27,22 @@ html, body, ul, li, h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-li {
+ul, ol {
   list-style: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,8 +1,0 @@
-.box {
-  display: flex;
-}
-
-.box .items {
-  box-sizing: border-box;
-  padding: 50px;
-}

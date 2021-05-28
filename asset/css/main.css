@@ -1,5 +1,9 @@
 .mainbanner {
-  height: 550px;
-  background: url("../img/main_banner.jpg") no-repeat;
-  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainbanner video {
+  width: 100%;
 }

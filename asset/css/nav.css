@@ -1,53 +1,3 @@
-/*initial css*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-html, body {
-  height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'GmarketSansMedium', 'Montserrat', sans-serif;
-  color: #666666;
-}
-
-html, body, ul, li, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-input:focus {
-  outline: none;
-}
-
-button:focus {
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-  color: #666666;
-}
-
 #wrap {
   width: 100%;
   height: 100vh;
@@ -95,13 +45,6 @@ a {
 #wrap #header #top_nav ul li a {
   line-height: 90px;
   height: 90px;
-  font-weight: 600;
-  color: #333;
-  font-size: 18px;
-}
-
-#wrap #header #top_nav ul li a:hover {
-  color: #6081C8;
 }
 
 #wrap #header #top_nav ul li:hover .submenu {
@@ -126,7 +69,7 @@ a {
   background: white;
   box-sizing: border-box;
   padding: 0 10px;
-  min-width: 180px;
+  min-width: 150px;
   transition: .5s;
 }
 
@@ -136,26 +79,12 @@ a {
   display: inline-block;
   width: 100%;
   height: 100%;
-  font-size: 16px;
-  font-weight: 300;
-  color: #666666;
 }
 
 #wrap #header #top_nav ul li .submenu li:hover {
-  background: -webkit-linear-gradient(128deg, #73e4ff, #dc80f9);
-  background: linear-gradient(128deg, #73e4ff, #dc80f9);
+  background: pink;
 }
 
 #wrap #header #top_nav ul li .submenu li:hover a {
   color: white;
-}
-
-.mainbanner {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.mainbanner video {
-  width: 100%;
 }
