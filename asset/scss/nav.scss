@@ -4,9 +4,11 @@
   height: 100vh;
   margin: 0 auto;
   #header{
-    position: relative;
+    position: fixed;
+    width: 100%;
     height: 90px;
     z-index: 100;
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.5);
     #top_logo{
       margin-left: 100px;
@@ -66,8 +68,8 @@
               min-width: 180px;
               transition: .5s;
               a{
-                line-height: 40px;
-                height: 40px;
+                line-height: 50px;
+                height: 50px;
                 display: inline-block;
                 width: 100%;
                 height: 100%;
@@ -76,8 +78,8 @@
                 color: $fontColorBasic;
               }
               &:hover{
-                background: -webkit-linear-gradient(128deg, rgb(115, 228, 255), rgb(220, 128, 249));
-                background: linear-gradient(128deg, rgb(115, 228, 255), rgb(220, 128, 249));
+                background: -webkit-linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
+                background: linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
                 a{
                   color: white;
                 }

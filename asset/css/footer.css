@@ -1,0 +1,6 @@
+#footer {
+  width: 100%;
+  height: 400px;
+  background: -webkit-linear-gradient(152deg, #d0e6f9, #f6e5ff);
+  background: linear-gradient(152deg, #d0e6f9, #f6e5ff);
+}

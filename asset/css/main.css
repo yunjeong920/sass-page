@@ -1,9 +1,15 @@
 .mainbanner {
+  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
-.mainbanner video {
+.mainbanner .main-banner {
+  height: 100%;
+}
+
+.mainbanner .main-banner video {
   width: 100%;
+  height: auto;
 }

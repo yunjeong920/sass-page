@@ -1,0 +1,43 @@
+#footer{
+  width: 100%;
+  height: 400px;
+  background: -webkit-linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
+  background: linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
+  .footer-wrap{
+    width: $width;
+    margin: 0 auto;
+    padding: 60px;
+    .footer-logo{
+      h6{
+        padding: 15px 0;
+        color: #4a4a4a;
+        font-size: 22px;
+      }
+    }
+    .container{
+      .foot-info{
+        line-height: 30px;
+        font-size: 14px;
+      }
+    }
+    .foot-bottom{
+      display: flex;
+      justify-content: center;
+      height: 30px;
+      line-height: 30px;
+      nav ul{
+        display: flex;
+        li{
+          font-size: 14px;
+          padding: 5px 25px;
+          &:first-child{
+            padding-left: 0;
+          }
+        }
+      }
+      .search{
+        padding-left: 25px;
+      }
+    }
+  }
+}
