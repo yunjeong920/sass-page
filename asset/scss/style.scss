@@ -3,12 +3,13 @@
 //scss 파일 분화
 @import "var.scss";//공통 변수
 @import "initial.scss";// css 초기화
-@import "common.scss";// 공통 요소
-@import "component.scss";// 공통 컴포넌트
 @import "nav.scss";// 네비게이션
 @import "footer.scss";
 
 //페이지 분화
 @import "main.scss";// 메인페이지
-@import "subpage.scss";// 서브페이지
-// @import "gallery.scss";// 갤러리페이지
+@import "company.scss";
+@import "notice.scss";
+@import "chanel.scss";// 홍보채널페이지
+@import "csr.scss";
+@import "location.scss";
