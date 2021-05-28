@@ -6,6 +6,7 @@
   <title>SSG 이윤정 포트폴리오 sass site</title>
   <meta name="description" content="sass site add footer style">
   <link rel="stylesheet" href="./asset/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="./js/jquery.min.js"></script>
   <script type="text/javascript" src="./js/common.js"></script>
   <!--[if lt IE 9]>
@@ -67,7 +68,7 @@
         <div class="content-wrap">
           <section>
             <div class="content1">
-              <div class="content-text">
+              <div class="content-text" data-aos="fade-right" data-aos-duration="2000">
                 <span>SSG e-Commerce Eco System</span>
                 <h2>e-Commerce<br>Eco System 구축</h2>
                 <p>SSG는 고객(Customer)과 협력업체 (Provider)를<br>
@@ -80,7 +81,7 @@
           <section>
             <div class="content2">
               <div class="content-img"></div>
-              <div class="content-text">
+              <div class="content-text" data-aos="fade-left" data-aos-duration="2000">
                 <span>SSG Product</span>
                 <h2>백화점부터<br>이마트까지 한눈에 한번에</h2>
                 <p>우리의 모든 일상은 쇼핑으로 연결됩니다<br>삼시세끼를 채울 장도 봐야하고,<br>다가오는 계절을 대비해 옷도 사야하죠.</p>
@@ -91,7 +92,7 @@
           </section>
           <section>
             <div class="content3">
-              <div class="content-text1">
+              <div class="content-text1" data-aos="fade-up" data-aos-duration="2000">
                 <span>SSG Service</span>
                 <h2>내가 정한 시간에<br>쓱-배송</h2>
               </div>
@@ -142,7 +143,12 @@
         </div>
       </div>
     </footer>
+
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
