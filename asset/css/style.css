@@ -1,53 +1,4 @@
-/*initial css*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-html, body {
-  height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'GmarketSansMedium', 'Montserrat', sans-serif;
-  color: #666666;
-}
-
-html, body, ul, li, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-input:focus {
-  outline: none;
-}
-
-button:focus {
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-  color: #666666;
-}
-
 #wrap {
   width: 100%;
   height: 100vh;
@@ -125,7 +76,7 @@ a {
 #wrap #header #top_nav ul li .submenu li {
   width: 100%;
   margin: 0;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
   padding: 0 10px;
   min-width: 180px;
@@ -149,7 +100,67 @@ a {
 }
 
 #wrap #header #top_nav ul li .submenu li:hover a {
-  color: white;
+  color: f9f9f9;
+}
+
+/*initial css*/
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'GmarketSansMedium', 'Montserrat', sans-serif;
+  color: #666666;
+}
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.nav {
+  color: #6081C8;
 }
 
 #footer {
@@ -400,4 +411,44 @@ a {
   background: url("../img/company/bg_company1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.company .company-banner .company-text {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company .company-banner .company-text h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 56px;
+}
+
+.company .company-banner .company-text span {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #fff;
+  opacity: 0.6;
+  margin-bottom: 35px;
+}
+
+.company .company-banner .company-text p {
+  color: white;
+  font-size: 22px;
+}
+
+.com-content {
+  width: 100%;
+}
+
+.com-content .content {
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 100px;
 }

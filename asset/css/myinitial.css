@@ -121,6 +121,12 @@ align-items: baseline; */
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 .nanumsquare {
     font-family: 'NanumSquare', sans-serif !important;
@@ -231,12 +237,14 @@ input, textarea, button {-webkit-appearance:none; -moz-appearance:none; appearan
 input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; -o-border-radius:0; border-radius:0;}
 
 /* 폰트 컬러 */
-.nav-color{color:#6081C8;}
+.c-black{color:#000000;}
 .c-white{color:#ffffff;}
 .c-3{color:#6e73dd;}
 .c-4{color:#ff194a;}
 .c-5{color:#ccc;}
 .c-6{color:#666;}
+
+.nav{color: #6081C8;}
 
 .bgcolor{ background: #4a4a4a; }
 /* 간격 */

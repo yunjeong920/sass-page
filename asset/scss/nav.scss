@@ -62,7 +62,7 @@
             li{
               width: 100%;
               margin: 0;
-              background: white;
+              background: rgba(255, 255, 255, 0.9);
               box-sizing: border-box;
               padding: 0 10px;
               min-width: 180px;
@@ -81,7 +81,7 @@
                 background: -webkit-linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
                 background: linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
                 a{
-                  color: white;
+                  color: f9f9f9;
                 }
               }
             }
