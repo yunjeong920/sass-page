@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 #wrap {
   width: 100%;
@@ -103,6 +104,45 @@
   color: f9f9f9;
 }
 
+/*탭 메뉴만들기*/
+.container {
+  width: 100%;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.container .tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+  background: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.container .tabs li {
+  background: none;
+  font-size: 20px;
+  color: #999;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .tabs li.current {
+  color: skyblue;
+}
+
+.container .tab-content {
+  display: none;
+}
+
+.container .tab-content.current {
+  display: block;
+}
+
 /*initial css*/
 @font-face {
   font-family: 'GmarketSansMedium';
@@ -126,6 +166,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  word-break: keep-all;
 }
 
 body {
@@ -166,12 +207,14 @@ a {
 #footer {
   width: 100%;
   height: 400px;
+  margin: 0 auto;
   background: -webkit-linear-gradient(152deg, #d0e6f9, #f6e5ff);
   background: linear-gradient(152deg, #d0e6f9, #f6e5ff);
 }
 
 #footer .footer-wrap {
   width: 1440px;
+  height: 100%;
   margin: 0 auto;
   padding: 60px;
 }
@@ -180,6 +223,11 @@ a {
   padding: 15px 0;
   color: #4a4a4a;
   font-size: 22px;
+}
+
+#footer .footer-wrap .container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 #footer .footer-wrap .container .foot-info {
@@ -324,6 +372,7 @@ a {
 
 .container .content-wrap .content2 .content-text {
   width: 45%;
+  margin-bottom: 60px;
 }
 
 .container .content-wrap .content2 .content-text span {
@@ -450,5 +499,239 @@ a {
   width: 1440px;
   height: 100vh;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 70px;
+}
+
+.com-content .content .text h3 {
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.com-content .content .text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4a4a4a;
+  font-family: "GmarketSansLight";
+  line-height: 30px;
+}
+
+.com-content .two .text h3 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.com-content .two .content-img {
+  width: 100%;
+  height: 600px;
+  background: url("../img/company/img_emart.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.com-content .three .text p {
+  margin-bottom: 100px;
+}
+
+.com-content .three .content-img {
+  width: 100%;
+  height: 600px;
+  background: url("../img/company/img_small.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.com-content .fourth .text p {
+  margin-bottom: 100px;
+}
+
+.com-content .fourth .content-img {
+  width: 100%;
+  height: 600px;
+  background: url("../img/company/img_department.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.com-content .five .text p {
+  margin-bottom: 100px;
+}
+
+.com-content .five .content-img {
+  width: 100%;
+  height: 600px;
+  background: url("../img/company/img_etcmall.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.com-content .six {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.com-content .six .text p:last-child {
+  margin-bottom: 50px;
+}
+
+.com-content .six .content-img {
+  width: 100%;
+  height: 600px;
+  background: url("../img/company/business.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.com-content .six .text2 p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "GmarketSansLight";
+  color: #4a4a4a;
+  line-height: 30px;
+}
+
+.com-content .six .text2 p:first-child {
+  margin-top: 50px;
+}
+
+.com-content .six .text2 p:last-child {
+  margin-bottom: 70px;
+}
+
+.history-wrap {
+  width: 100%;
+  background: #fff;
+  padding: 100px;
+}
+
+.history-wrap .history {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.history-wrap .history .story {
+  display: flex;
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-wrap .history .story .table {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-wrap .history .story .table dl {
+  display: flex;
+  line-height: 50px;
+}
+
+.history-wrap .history .story .table dt {
+  font-family: "GmarketSansLight";
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  width: 150px;
+}
+
+.history-wrap .history .story .table dd {
+  font-family: "GmarketSansLight";
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  line-height: 50px;
+}
+
+.history-wrap .history h2 {
+  color: #333;
+  font-size: 26px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #333;
+}
+
+.history-wrap .history h4 {
+  color: #333;
+  font-size: 22px;
+  width: 300px;
+}
+
+.content-txt {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.content-txt .text-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-txt .text-wrap .title {
+  width: 400px;
+  color: #333;
+}
+
+.content-txt .text-wrap .title h3 {
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+
+.content-txt .text-wrap .title p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.content-txt .text-wrap .title span {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #333;
+  margin-bottom: 20px;
+}
+
+.content-txt .text-wrap .text {
+  width: 750px;
+}
+
+.content-txt .text-wrap .text h4 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.content-txt .text-wrap .text p {
+  font-size: 18px;
+  font-family: "GmarketSansLight";
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.content-txt .text-wrap .text p b {
+  color: #000;
+}
+
+.content-txt .video {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.content-txt .video .video1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.content-txt .video .video2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.content-txt .video p {
+  margin-top: 30px;
+  color: #333;
 }

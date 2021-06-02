@@ -1,10 +1,12 @@
 #footer{
   width: 100%;
   height: 400px;
+  margin: 0 auto;
   background: -webkit-linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
   background: linear-gradient(152deg, rgb(208, 230, 249), rgb(246, 229, 255));
   .footer-wrap{
     width: $width;
+    height: 100%;
     margin: 0 auto;
     padding: 60px;
     .footer-logo{
@@ -15,6 +17,8 @@
       }
     }
     .container{
+      width: $width;
+      margin: 0 auto;
       .foot-info{
         line-height: 30px;
         font-size: 14px;

@@ -41,6 +41,227 @@
     width: $width;
     height: 100vh;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 70px;
+    .text{
+      h3{
+        color: #222;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 18px;
+        font-weight: bold;
+        color: $fontColorHover;
+        font-family: $fontLight;
+        line-height: 30px;
+      }
+    }
+  }
+  .two{
+    .text{
+      h3{
+        margin-top: 60px;
+        margin-bottom: 100px;
+      }
+    }
+    .content-img{
+      width: 100%;
+      height: 600px;
+      background: url('../img/company/img_emart.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  .three{
+    .text{
+      p{
+        margin-bottom: 100px;
+      }
+    }
+    .content-img{
+      width: 100%;
+      height: 600px;
+      background: url('../img/company/img_small.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  .fourth{
+    .text{
+      p{
+        margin-bottom: 100px;
+      }
+    }
+    .content-img{
+      width: 100%;
+      height: 600px;
+      background: url('../img/company/img_department.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  .five{
+    .text{
+      p{
+        margin-bottom: 100px;
+      }
+    }
+    .content-img{
+      width: 100%;
+      height: 600px;
+      background: url('../img/company/img_etcmall.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  .six{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .text{
+      p{
+        &:last-child{
+          margin-bottom: 50px;
+        }
+      }
+    }
+    .content-img{
+      width: 100%;
+      height: 600px;
+      background: url('../img/company/business.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+    .text2{
+      p{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: $fontLight;
+        color: $fontColorHover;
+        line-height: 30px;
+        &:first-child{
+          margin-top: 50px;
+        }
+        &:last-child{
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+}
+
+.history-wrap{
+  width: 100%;
+  background: #fff;
+  padding: 100px;
+  .history{
+    width: 1200px;
+    margin: 0 auto;
+    .story{
+      display: flex;
+      padding: 40px;
+      border-bottom: 1px solid #ddd;
+      .table{
+        display: flex;
+        flex-direction: column;
+        dl{
+          display: flex;
+          line-height: 50px;
+        }
+        dt{
+          font-family: $fontLight;
+          font-weight: bold;
+          font-size: 20px;
+          color: $fontMain;
+          width: 150px;
+        }
+        dd{
+          font-family: $fontLight;
+          font-weight: bold;
+          font-size: 20px;
+          color: $fontMain;
+          line-height: 50px;
+        }
+      }
+    }
+    h2{
+      color: $fontMain;
+      font-size: 26px;
+      padding-bottom: 40px;
+      border-bottom: 2px solid $fontMain;
+    }
+    h4{
+      color: $fontMain;
+      font-size: 22px;
+      width: 300px;
+    }
+  }
+}
+
+.content-txt{
+  width: $width;
+  margin: 0 auto;
+  padding: 100px;
+  .text-wrap{
+    display: flex;
+    justify-content: space-between;
+    .title{
+      width: 400px;
+      color: $fontMain;
+      h3{
+        font-size: 56px;
+        margin-bottom: 50px;
+      }
+      p{
+        font-size: 22px;
+        margin-bottom: 30px;
+      }
+      span{
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: $fontMain;
+        margin-bottom: 20px;
+      }
+    }
+    .text{
+      width: 750px;
+      h4{
+        color: $fontMain;
+        font-size: 26px;
+        margin-bottom: 30px;
+      }
+      p{
+        font-size: 18px;
+        font-family: $fontLight;
+        font-weight: bold;
+        margin-bottom: 25px;
+        b{
+          color: #000;
+        }
+      }
+    }
+  }
+  .video{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    .video1{
+      padding: 10px;
+      text-align: center;
+    }
+    .video2{
+      padding: 10px;
+      text-align: center;
+    }
+    p{
+      margin-top: 30px;
+      color: $fontMain
+    }
   }
 }

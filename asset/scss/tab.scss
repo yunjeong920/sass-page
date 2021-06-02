@@ -1,0 +1,33 @@
+/*탭 메뉴만들기*/
+.container{
+  width: 100%;
+  position: absolute;
+  margin-top: 90px;
+  .tabs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    line-height: 60px;
+    background: none;
+    border-bottom: 1px solid #ddd;
+    li{
+      background: none;
+      font-size: 20px;
+      color: #999;
+      width: 200px;
+      text-align: center;
+      cursor: pointer;
+      &.current{
+        color: skyblue;
+      }
+    }
+  }
+  .tab-content{
+    display: none;
+    &.current{
+      display: block;
+    }
+  }
+}

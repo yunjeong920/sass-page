@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*탭 메뉴만들기*/
+.container {
+  width: 100%;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.container .tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+  background: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.container .tabs li {
+  background: none;
+  font-size: 20px;
+  color: #999;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .tabs li.current {
+  color: skyblue;
+}
+
+.container .tab-content {
+  display: none;
+}
+
+.container .tab-content.current {
+  display: block;
+}
