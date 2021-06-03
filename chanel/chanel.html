@@ -1,114 +1,218 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
-  <title>gallery</title>
-  <meta name="description" content="gallery content">
+  <title>SSG 이윤정 포트폴리오 sass site</title>
+  <meta name="description" content="sass site add footer style">
   <link rel="stylesheet" href="../asset/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="../js/jquery.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
   <!--[if lt IE 9]>
-  <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src = "http://html5shiv.googlecode.com/svn/ulunk/html5.js"></script>
   <![endif]-->
 </head>
-<body class="subpage">
- <div id="wrap">
-   <header id="header">
+
+<body>
+  <div id="wrap">
+    <header id="header">
       <!-- 헤더 영역  -->
-      <h1 id="top_logo"><a href="../index.html">Xwood</a></h1>
+      <h1 id="top_logo"><a href="../index.html"><img src="../asset/img/main/ssg_logo_black.svg" alt=""></a></h1>
       <nav id="top_nav">
         <ul>
           <li>
-            <a href="../company/introduce.html">Company</a>
+            <a href="../company/introduce.html">회사소개</a>
             <ul class="submenu">
-              <li><a href="../company/introduce.html">introduce</a></li>
-              <li><a href="../company/ci.html">ci</a></li>
-              <li><a href="../company/history.html">history</a></li>
+              <li><a href="../company/introduce.html">SSG.COM 소개</a></li>
+              <li><a href="../company/history.html">성장 스토리</a></li>
+              <li><a href="../company/brand.html">브랜드 스토리</a></li>
             </ul>
           </li>
-          <li><a href="../product/product.html">Product</a></li>
-          <li><a href="../gallery/gallery.html">Gallery</a></li>
-          <li><a href="../community/notice.html">Community</a></li>
-          <li><a href="../location/location.html">Location</a></li>
+          <li><a href="../info/notice.html">경영정보</a>
+            <ul class="submenu">
+              <li><a href="../info/notice.html">전자공고</a></li>
+            </ul>
+          </li>
+          <li><a href="./chanel.html" style="color: #6081C8;">홍보채널</a>
+            <ul class="submenu">
+              <li><a href="./chanel.html">브랜드 영상</a></li>
+              <li><a href="./news.html">보도자료</a></li>
+            </ul>
+          </li>
+          <li><a href="../csr/csr1.html">CSR 경영</a>
+            <ul class="submenu">
+              <li><a href="../csr/csr1.html">CSR 경영</a></li>
+              <li><a href="../csr/csr2.html">투명경영</a></li>
+              <li><a href="../csr/csr3.html">사회공헌</a></li>
+              <li><a href="../csr/csr4.html">상생경영</a></li>
+              <li><a href="../csr/csr5.html">핫라인</a></li>
+            </ul>
+          </li>
+          <li><a href="../location/location.html">찾아오시는 길</a></li>
         </ul>
       </nav>
-   </header>
-   <main>
-     <!-- 컨텐츠 영역 -->
-     <div class="container">
-       <!-- 왼쪽메뉴 -->
-       <aside id="lnb">
-         <ul>
-           <li><a href="./gallery.html" class="on">Gallery</a></li>
-         </ul>
-       </aside>
-       <!-- 컨텐츠 본문 -->
-       <div class="content">
-         <h2 class="sub_title"><span>Gallery</span></h2>
-         <div class="inner">
-            gallery  layout  구현
-         </div>
-       </div>
-     </div>
-   </main>
-   <!-- 하단 영역 -->
-   <footer id="footer">
-     <div class="footer_top">
-       <!-- footer 상단 영역 -->
-       <div class="container">
-         <div class="row">
-           <div class="column footer_logo">
-             <!-- footer logo -->
-             <h3>logo</h3>
-           </div>
-           <div class="column">
-             <!-- site map -->
-             <h4>site map</h4>
-             <ul>
-               <li><a href="../company/introduce.html">Company</a></li>
-               <li><a href="../product/product.html">Product</a></li>
-               <li><a href="../gallery/gallery.html">Gallery</a></li>
-               <li><a href="../community/notice.html">Community</a></li>
-               <li><a href="../location/location.html">Location</a></li>
-             </ul>
-           </div>
-           <div class="column">
-             <!-- contact us -->
-             <h4>contact us</h4>
-             <p>
-               A108 Adam street<br>
-               New York, NY 535022<br>
-               United states<br>
-               <strong>phone&nbsp;:&nbsp;</strong><a href="tel=+82-010-0000-0000">+82-010-0000-0000</a><br>
-               <strong>Email&nbsp;:&nbsp;</strong><a href="mailto=mymail@naver.com">mymail@naver.com</a><br>
-             </p>
-           </div>
-           <div class="column news">
-             <!-- news -->
-             <h4>news</h4>
-             <p>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet,
-               consectetur adipisicing elit
-             </p>
-             <form action="">
-               <input type="search" name="search">
-               <input type="submit" value="search">
-             </form>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="container">
-       <!-- footer 하단 영역 -->
-       <div class="coypyright">
-         ⓒcopryright <strong>mypage</strong> .All Rights Reserved.
-       </div>
-       <div class="credits">
-         Designed By <a href="mailto:mymail@naver.com">My Name</a>
-       </div>
-     </div>
-   </footer>
- </div>
+    </header>
+
+    <div class="chanel-wrap">
+      <div class="chanel-banner">
+        <div class="chanel-text">
+          <h1>브랜드영상</h1>
+          <span></span>
+          <p>미디어 속 SSG.COM의 영상을<br>소개해드립니다.</p>
+        </div>
+      </div>
+
+      <div class="chanel-box">
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-1.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">압도적 쓱케일 #인생위기2</p>
+              <p class="t2">우러나게 해야할 것은 곰탕이고 우려해야 할 것은 공유다</p>
+            </div>
+            <div class="txt-box2">
+              <p>2020-03-16</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-2.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">압도적 쓱케일 #슬픈인연</p>
+              <p class="t2">공유. 슬픈 운명에 무릎 꿇다. (두둥)</p>
+            </div>
+            <div class="txt-box2">
+              <p>2020-03-16</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-3.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">압도적 쓱케일 #벌들의역습</p>
+              <p class="t2">꿀벌도 꼬이게 하는 공유의 매력은? 붕대 감은건 안 비밀~</p>
+            </div>
+            <div class="txt-box2">
+              <p>2020-03-16</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-4.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">압도적쓱케일 #간보는고등어</p>
+              <p class="t2">공유와 고등어의 치열한 밀당 지금 그 현장을 고발합니다. (진지)</p>
+            </div>
+            <div class="txt-box2">
+              <p>2020-03-16</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-5.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">WHOLE NEW SSG WORLD</p>
+              <p class="t2">SSG.COM에서 누릴 수 있는 모-든 것!<br>
+              초현실 아티스트 이기택 작가가 그려낸 초현실적인 쓱세권의 모습.</p>
+            </div>
+            <div class="txt-box2">
+              <p>2019-11-04</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-img">
+            <video width="100%" height="100%" playsinline="playsinline" controls="" controlslist="nodownload">
+              <source src="../asset/img/chanel/video-6.m4v" type="video/mp4">
+            </video>
+          </div>
+          <div class="vid-text">
+            <div class="txt-box1">
+              <p class="t1">쓱세권의 새벽 장은 좀 특별해요</p>
+              <p class="t2">새벽에 구하기 힘든걸 구할 수 있게,<br>
+                    귀한 먹거리부터 급한 생필품까지.<br>
+                    친환경 보냉가방으로 더 신선하게.</p>
+            </div>
+            <div class="txt-box2">
+              <p>2019-08-23</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 하단 영역 -->
+    <footer id="footer">
+      <div class="footer-wrap">
+        <div class="footer-logo">
+          <h6>(주)에스에스지닷컴</h6>
+        </div>
+        <div class="container">
+          <div class="foot-info">
+            <span>대표자 : 강희석 </span>
+            <p>사업자등록번호 : 870-88-01143 서울특별시 종로구 우정국로 26 통신판매업 신고번호 : 제2020-서울종로-1154호</p>
+            <span>개인정보보호책임자 : 김민</span>
+            <p>FAX : 02-2068-7118 ssg@ssg.com</p>
+          </div>
+          <div class="foot-bottom">
+            <nav>
+              <ul>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보처리기기 운영관리방침</a></li>
+                <li><a href="#">핫라인</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="container2">
+            <!-- footer 하단 영역 -->
+            <div class="coypyright">
+              ⓒcopryright <sulong>mypage</sulong> .All Rights Reserved.
+            </div>
+            <div class="credits">
+              Designed By <a href="http://company.ssg.com/main.ssg">SSG.COM</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>

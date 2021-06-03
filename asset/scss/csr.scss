@@ -1,0 +1,36 @@
+.csr-wrap{
+  width: 100%;
+  .csr-banner{
+    width: 100%;
+    height: 670px;
+    background: url('../img/csr/bg_csr.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    .csr-text{
+      width: $width;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1{
+        color: $layoutBg;
+        margin-bottom: 30px;
+        font-size: $fontSizeSBig;
+      }
+      span{
+        display: block;
+        width: 70px;
+        height: 2px;
+        background: $layoutBg;
+        opacity: 0.6;
+        margin-bottom: 35px;
+      }
+      p{
+        color: $layoutBg;
+        font-size: 22px;
+      }
+    }
+  }
+}

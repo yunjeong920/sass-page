@@ -17,7 +17,7 @@
       h1{
         color: white;
         margin-bottom: 30px;
-        font-size: 56px;
+        font-size: $fontSizeSBig;
       }
       span{
         display: block;
@@ -49,7 +49,7 @@
         margin-bottom: 20px;
       }
       p{
-        font-size: 18px;
+        font-size: $fontSizeNormal;
         font-weight: bold;
         color: $fontColorHover;
         font-family: $fontLight;
@@ -139,7 +139,7 @@
     }
     .text2{
       p{
-        font-size: 18px;
+        font-size: $fontSizeNormal;
         font-weight: bold;
         font-family: $fontLight;
         color: $fontColorHover;
@@ -214,7 +214,7 @@
       width: 400px;
       color: $fontMain;
       h3{
-        font-size: 56px;
+        font-size: $fontSizeSBig;
         margin-bottom: 50px;
       }
       p{
@@ -237,7 +237,7 @@
         margin-bottom: 30px;
       }
       p{
-        font-size: 18px;
+        font-size: $fontSizeNormal;
         font-family: $fontLight;
         font-weight: bold;
         margin-bottom: 25px;

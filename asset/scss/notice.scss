@@ -1,0 +1,98 @@
+.notice-wrap{
+  width: 100%;
+  .notice-banner{
+    width: 100%;
+    height: 670px;
+    background: url('../img/notice/bg_notice.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    .notice-text{
+      width: $width;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1{
+        color: $layoutBg;
+        margin-bottom: 30px;
+        font-size: 56px;
+      }
+      span{
+        display: block;
+        width: 70px;
+        height: 2px;
+        background: $layoutBg;
+        opacity: 0.6;
+        margin-bottom: 35px;
+      }
+      p{
+        color: $layoutBg;
+        font-size: 22px;
+      }
+    }
+  }
+  .notice-table{
+    background: $layoutBg;
+    width: 100%;
+    .table-wrap{
+      width: $width;
+      margin: 0 auto;
+      padding: 100px 60px 100px 60px;
+      .name2{
+        padding: 20px 10px 20px 0px;
+        display: flex;
+        justify-content: space-around;
+        border-top: 2px solid $fontColorBasic;
+        border-bottom: 1px solid #ddd;
+        .title{
+          width: 850px;
+          text-align: center;
+          font-size: $fontSize;
+          color: $fontMain;
+        }
+        .date{
+          width: 300px;
+          text-align: center;
+          font-size: $fontSize;
+          color: $fontMain;
+        }
+      }
+      .text{
+        .text-lab{
+          display: flex;
+          justify-content: space-around;
+          padding-bottom: 25px;
+          padding-top: 25px;
+          border-bottom: 1px solid #ddd;
+          .subtext{
+            width: 850px;
+            font-family: $fontLight;
+            font-size: $fontSizeNormal;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          .day{
+            width: 300px;
+            font-family: $fontLight;
+            font-size: $fontSizeNormal;
+            font-weight: bold;
+            text-align: center;
+          }
+        }
+      }
+      button{
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        background: none;
+        font-size: $fontSizeNormal;
+        font-weight: bold;
+        margin: 20px 0;
+        padding-top: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
