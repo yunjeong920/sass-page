@@ -1022,3 +1022,123 @@ a {
   color: #fff;
   font-size: 22px;
 }
+
+.csr1-wrap {
+  width: 100%;
+  padding: 100px 20px 100px 20px;
+}
+
+.csr1-wrap .csr1-box {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.csr1-wrap .csr1-box h2 {
+  font-size: 28px;
+  color: #222;
+  padding-bottom: 20px;
+}
+
+.csr1-wrap .csr1-box p {
+  font-family: "GmarketSansLight";
+  font-weight: bold;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.csr1-wrap .csr1-box .csr1-imgbox {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+
+.csr1-wrap .csr1-box .csr1-imgbox .csr1-img img {
+  width: 162px;
+  height: 162px;
+}
+
+.csr1-wrap .csr1-box .csr1-imgbox .csr1-img p {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.csr1-wrap .csr1-box2 {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.csr1-wrap .csr1-box2 h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  color: #222;
+}
+
+.csr1-wrap .csr1-box2 p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "GmarketSansLight";
+  color: #4a4a4a;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 {
+  width: 1440px;
+  padding: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 .csr1-img2 {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 .csr1-img2 img {
+  width: 142px;
+  height: 142px;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 .csr1-img2 .text {
+  margin-left: 40px;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 .csr1-img2 .text h4 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.csr1-wrap .csr1-box2 .csr1-imgbox2 .csr1-img2 .text p {
+  font-size: 16px;
+}
+
+.csr1-wrap .csr1-box3 {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.csr1-wrap .csr1-box3 p {
+  font-family: "GmarketSansLight";
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.csr1-wrap .csr1-box3 .box3-img {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.csr1-wrap .csr1-box3 .box3-img img {
+  width: 1000px;
+  height: auto;
+}

@@ -34,3 +34,106 @@
     }
   }
 }
+
+.csr1-wrap{
+  width: 100%;
+  padding: 100px 20px 100px 20px;
+  .csr1-box{
+    width: $width;
+    margin: 0 auto;
+    h2{
+      font-size: 28px;
+      color: $fontMain;
+      padding-bottom: 20px;
+    }
+    p{
+      font-family: $fontLight;
+      font-weight: bold;
+      font-size: $fontSizeNormal;
+      color: $fontColorHover;
+    }
+    .csr1-imgbox{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 70px;
+      padding-bottom: 150px;
+      .csr1-img{
+        img{
+          width: 162px;
+          height: 162px;
+        }
+        p{
+          margin-top: 30px;
+          font-size: $fontSize;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .csr1-box2{
+    width: $width;
+    margin: 0 auto;
+    h2{
+      font-size: 28px;
+      padding-bottom: 20px;
+      color: $fontMain;
+    }
+    p{
+      font-size: $fontSizeNormal;
+      font-weight: bold;
+      font-family: $fontLight;
+      color: $fontColorHover
+    }
+    .csr1-imgbox2{
+      width: $width;
+      padding: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      .csr1-img2{
+        display: flex;
+        align-items: center;
+        width: 600px;
+        margin-bottom: 50px;
+        img{
+          width: 142px;
+          height: 142px;
+        }
+        .text{
+          margin-left: 40px;
+          h4{
+            font-size: $fontSizeNormal;
+            color: $fontMain;
+            margin-bottom: 15px;
+          }
+          p{
+            font-size: $fontSize;
+          }
+        }
+      }
+    }
+  }
+  .csr1-box3{
+    width: $width;
+    margin: 0 auto;
+    p{
+      font-family: $fontLight;
+      font-size: $fontSizeNormal;
+      color: $fontColorHover;
+      font-weight: bold;
+      margin-top: 70px;
+      margin-bottom: 80px;
+    }
+    .box3-img{
+      width: $width;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px;
+      img{
+        width: 1000px;
+        height: auto;
+      }
+    }
+  }
+}
