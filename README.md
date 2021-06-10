@@ -1,2 +1,1 @@
-# sass-page
-sass-page
+# SSG 클론 카피 페이지
