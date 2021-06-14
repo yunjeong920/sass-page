@@ -1,7 +1,36 @@
 @charset "UTF-8";
 
+//변수처리
+
+//size width
+$width: 1440px;
+//text size
+$fontSize: 16px;
+$fontSizeNormal: 18px;
+$fontSizeMid: 30px;
+$fontSizeSBig: 56px;
+
+// nav font size
+$navMainsize: 18px;
+
+//background color
+$layoutBg: #fff;
+
+//font color
+$fontColorBasic: #666666;
+$fontColorHover: #4a4a4a;
+$fontMain: #222;
+
+//border color
+$borderColorPrimary: #f1f1f1;
+
+// nav hover
+$navColor : #6081C8;
+
+//font-family
+$fontLight: 'GmarketSansLight';
+
 //scss 파일 분화
-@import "var.scss";//공통 변수
 @import "nav.scss";// 네비게이션
 @import "tab.scss";
 @import "initial.scss";// css 초기화
