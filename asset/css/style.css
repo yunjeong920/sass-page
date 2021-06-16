@@ -25,6 +25,7 @@
 }
 
 #wrap #header #top_nav {
+  min-width: 700px;
   position: relative;
   height: 90px;
   float: right;
@@ -101,6 +102,10 @@
 
 #wrap #header #top_nav ul li .submenu li:hover a {
   color: f9f9f9;
+}
+
+.header-wrap {
+  min-width: 1440px;
 }
 
 /*탭 메뉴만들기*/
